@@ -22,6 +22,20 @@ try:
     print("Starting test with various locator to use in find_element() method.")
     driver.get(HOST)
     # time.sleep(5)
+    #enter first_name = 'john', enter last_name = 'doe', enter email = 'jdoe@email.com',
+    # select radio button gender = 'male',
+    # date of birth = 27 November 2000, subject = 'selenium forms testing'
+    #select checkboxes, select Sports, reading, music
+    #upload picture
+    #enter massage in the text_area = '2906 Shell Rd., Brooklyn NY 12224'
+    # check is the city is enabled
+    #select state = 'NCR'
+    #select city = 'Delhi'
+    #check if male gender is selected
+    #check if sports hobbies is selected
+    #click submit
+    #verify the massage:
+
 
 
 
