@@ -19,22 +19,50 @@ driver.maximize_window()
 driver.implicitly_wait(20)
 
 try:
+    #All locators:
+    fn_input = 'firstname'
+    ln_input = 'lastname'
+    email_input = 'userEmail'
+    gender_male = 'gender-radio-1'
+    mobil_number_input = 'userNumber'
+    hobbies_sp = 'hobbies'
+    hobbies_reading = ''
+    state_list = ''
+    city_list = '
+
+
+
+
+
+    #Steps:
     print("Starting test with various locator to use in find_element() method.")
     driver.get(HOST)
     # time.sleep(5)
     #enter first_name = 'john', enter last_name = 'doe', enter email = 'jdoe@email.com',
+    fn_input = ''
+    ln_input = ''
+    email_input = ''
     # select radio button gender = 'male',
+    gender_male = ''
+    #mobil_number  = 9875433210
+    mobil_number_input = ''
     # date of birth = 27 November 2000, subject = 'selenium forms testing'
     #select checkboxes, select Sports, reading, music
+    hobbies_sp = ''
+    hobbies_reading = ''
     #upload picture
     #enter massage in the text_area = '2906 Shell Rd., Brooklyn NY 12224'
     # check is the city is enabled
     #select state = 'NCR'
+    state_list = ''
     #select city = 'Delhi'
+    city_list = ''
     #check if male gender is selected
     #check if sports hobbies is selected
     #click submit
+    submit_button = ''
     #verify the massage:
+    confirmation_msg = ''
 
 
 
